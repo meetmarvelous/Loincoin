@@ -7,3 +7,14 @@
   =>  Template Author  : HTML Codex
 
   =>  Author Website   : https://htmlcodex.com
+
+
+  #1A1138
+
+  #F7CF3A
+
+remove the popup title
+
+beautify the popup page creatively with
+  background color :  #F7CF3A
+  Primary color : #1A1138

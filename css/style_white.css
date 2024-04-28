@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #f2c80d;
-    --secondary: white;
+    --primary: #1A1138;
+    --secondary: #999999;
     --light: #F2F8FE;
-    --dark: #45ddff;
+    --dark: #111111;
 }
 
 .back-to-top {
@@ -46,7 +46,7 @@ h6,
 }
 
 .btn.btn-primary {
-    color: #1a1138;
+    color: #FFFFFF;
 }
 
 .btn-square {
@@ -88,7 +88,7 @@ h6,
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: white;
+    color: var(--dark);
     font-weight: 500;
     outline: none;
 }
@@ -350,70 +350,3 @@ h6,
 .footer .copyright a:hover {
     color: var(--dark);
 }
-
-
-.bg-dark {
-    background-color: #1A1138 !important;
-  }
-
-  .bg-light {
-    background-color: #9d8adb !important;
-  }
-  .btn-primary {
-    color: #000;
-    background-color: white;
-    border-color: #1a1138;
-  }
-
-
-
-.modal-content {
-    background-color: #F7CF3A;
-    color: #1A1138;
-    border-radius: 20px;
-}
-.modal-header {
-    border-bottom: none;
-    padding: 1rem;
-}
-.modal-footer {
-    border-top: none;
-    padding: 1rem;
-}  
-
-
-
-  .btn-primary:hover {
-    color: #000;
-    background-color: #39dbff;
-    border-color: #2dd9ff;
-  }
-  .btn-check:focus + .btn-primary,
-  .btn-primary:focus {
-    color: #000;
-    background-color: #39dbff;
-    border-color: #2dd9ff;
-    box-shadow: 0 0 0 0.25rem rgba(19, 181, 217, 0.5);
-  }
-  .btn-check:checked + .btn-primary,
-  .btn-check:active + .btn-primary,
-  .btn-primary:active,
-  .btn-primary.active,
-  .show > .btn-primary.dropdown-toggle {
-    color: #000;
-    background-color: #45ddff;
-    border-color: #2dd9ff;
-  }
-  .btn-check:checked + .btn-primary:focus,
-  .btn-check:active + .btn-primary:focus,
-  .btn-primary:active:focus,
-  .btn-primary.active:focus,
-  .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(19, 181, 217, 0.5);
-  }
-  .btn-primary:disabled,
-  .btn-primary.disabled {
-    color: #000;
-    background-color: #1a1138;
-    border-color: #1a1138;
-  }
